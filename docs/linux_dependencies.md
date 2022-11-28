@@ -149,6 +149,8 @@ You may also need to install a vulkan driver, either: `libvulkan_intel`, `libvul
    sudo emerge --ask libX11 pkgconf alsa-lib
 ```
 
+When using an AMD Radeon GPU, you may also need to emerge `amdgpu-pro-vulkan` to get Bevy to find the GPU.
+
 ## [Clear Linux OS](https://clearlinux.org/)
 
 ```bash
